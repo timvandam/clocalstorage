@@ -1,0 +1,164 @@
+_idleTimeout,1
+- _idlePrev,[object Object]
+- _idleNext,[object Object]
+- _idleStart,
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(ns.get('a'))
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,50
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(ns.get('a'))
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,50
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(ns.get('a'))
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+callback,function afterWriteTick({ stream, state, count, cb }) {
+  state.afterWriteTickInfo = null;
+  return afterWrite(stream, state, count, cb);
+}
+- args,[object Object]
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,50
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(ns.get('a'))
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+_idleTimeout,1
+- _idlePrev,[object Object]
+- _idleNext,[object Object]
+- _idleStart,
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,41
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,41
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+callback,function afterWriteTick({ stream, state, count, cb }) {
+  state.afterWriteTickInfo = null;
+  return afterWrite(stream, state, count, cb);
+}
+- args,[object Object]
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,41
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+_idleTimeout,1
+- _idlePrev,[object Object]
+- _idleNext,[object Object]
+- _idleStart,
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(executionAsyncResource())
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,42
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(executionAsyncResource())
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,42
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(executionAsyncResource())
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
+callback,function afterWriteTick({ stream, state, count, cb }) {
+  state.afterWriteTickInfo = null;
+  return afterWrite(stream, state, count, cb);
+}
+- args,[object Object]
+_idleTimeout,1
+- _idlePrev,
+- _idleNext,
+- _idleStart,42
+- _onTimeout,() => {
+  ns.set('a', 'b')
+  console.log(executionAsyncResource())
+  next()
+}
+- _timerArgs,
+- _repeat,
+- _destroyed,false
